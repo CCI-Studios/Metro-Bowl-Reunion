@@ -20,6 +20,11 @@ body
     -webkit-font-smoothing: antialiased;
 }
 
+.page-wrapper
+{
+    height: 100%;
+}
+
 .header
 {
     background: url(../img/header.jpg) no-repeat center center;
@@ -255,6 +260,15 @@ body
         border: 3px solid white;
         border-radius: 4px;
         margin-top: 30px;
+        
+        &:hover,
+        &:focus
+        {
+            background: white;
+            color: #186935;
+            box-shadow: 0 0 0 3px #186935 inset;
+            text-shadow: none;
+        }
     }
 }
 
