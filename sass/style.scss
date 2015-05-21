@@ -394,6 +394,8 @@ body
     background: white;
     z-index: 100;
     text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
     
